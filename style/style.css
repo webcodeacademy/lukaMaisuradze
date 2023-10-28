@@ -1,0 +1,870 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #060527;
+    font-family:Racingsansone;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: Racingsansone;
+    src: url(../fonts/RacingSansOne-Regular.ttf);
+}
+body{
+ width: 1440px;   
+}
+header{
+    padding: 40px;
+    border-bottom: 1px solid; color: white;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); 
+    position: relative;
+  }
+
+  nav ul li a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #27FFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  nav ul li a:hover:before{
+    width: 100%;
+  }
+  .premium a::before{             /*premium to gold line */
+ content: "";
+    width: 0;
+    height: 2px;
+    background-color: rgba(141, 141, 218, 0.23);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .premium a:hover:before{
+    width: 100%;
+  }
+  nav ul li a:hover {
+    color:#27FFFF; /* hover color variation 1 */
+
+  }
+.Sweethouselogo a{
+    font-size: 25px;
+   
+}
+
+ul{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+    
+}
+ul a{
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+}
+.premium {
+    background-color: #8D8DDA;
+    border-radius: 15px;
+    height: 46px;
+    padding: 10px;
+}
+.premium a{
+    color: #FFFFFF;
+}
+.premium a:hover{
+    color:#ffd904;
+}
+/* ----------------pirveli gverdis main dasawkisi----------------*/
+.Category{
+ width: 1042px;
+ height: 270px;
+ margin-top: 104px;   
+ margin-left: 200px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.owner{
+    width: 208px;
+    height: 270px;
+    overflow: hidden;
+}
+.owner h2{
+font-size: 32px;
+color: white;
+margin-left: 5px;
+}
+.owner h2:hover{
+    color:#27FFFF; 
+}
+.owner img{
+    width: 100%;
+    margin-top: 16px;
+}
+.client{
+ width: 178px;
+ height: 270px;
+ overflow: hidden;   
+}
+.client h2{
+    font-size: 32px;
+color: white;
+margin-left: 5px;
+}
+.client h2:hover{
+    color:#27FFFF; 
+}
+.client img{
+width: 100%;
+margin-top: 16px;
+}
+.agent{
+    width: 180px;
+    height: 270px;
+    overflow: hidden;
+}
+.agent h2{
+    font-size: 32px;
+color: white;
+margin-left: 50px;
+}
+.agent h2:hover{
+    color:#27FFFF; 
+}
+.agent img{
+    width: 100%;
+    margin-top: 16px;
+}
+.whichcategory{
+    width: 504px;
+    margin-left: 468px;
+    margin-top: 118px;
+}
+.whichcategory h2{
+    color: white;
+    font-size: 36px;
+}
+.borderbox{
+    border-bottom: 1px solid; color: white;
+    margin-top: 235px;
+}
+.sweethousedream{
+ margin-top: 66px;
+ margin-left: 574px;
+}
+.sweethousedream h2{
+    color:#27FFFF;
+    font-size: 36px;
+}
+.bestagents{
+    margin-left: 454px;
+}
+.bestagents h2{
+color: white;
+font-size: 36px;
+}
+.udidesicharcho{
+    width: 1068px;
+    height: 392px;
+   
+    margin-top: 105px;
+    margin-left: 186px;
+    display: flex;
+    justify-content: space-between;
+}
+.kvadratuniebi{
+    width: 345px;
+    height: 318px;
+    
+    margin-top: 75px;
+    border-radius: 25px;
+    background-color: #13124F;
+}
+.kvadratuniebi h2{
+font-size: 36px;
+color: white;
+margin-top: 68px;
+margin-left: 68px;
+}
+.kvadratuniebi p{
+font-size: 36px;
+color: white;
+margin-top: 82px;
+margin-left: 20px;
+}
+.kvadratuniebi1{
+     width: 345px;
+    height: 318px;
+   
+    margin-top: 75px;
+    border-radius: 25px;
+    background-color: #13124F;
+}
+.kvadratuniebi1 h2{
+    font-size: 36px;
+color: white;
+margin-top: 68px;
+margin-left: 68px;
+}
+.kvadratuniebi1 p{
+    font-size: 36px;
+color: white;
+margin-top: 82px;
+margin-left: 20px;
+}
+.kvadratuniebi2{
+     width: 345px;
+    height: 318px;
+    
+    margin-top: 75px;
+    border-radius: 25px;
+    background-color: #13124F;
+}
+.kvadratuniebi2 h2{
+    font-size: 36px;
+    color: white;
+    margin-top: 68px;
+    margin-left: 68px;
+}
+.kvadratuniebi2 p{
+    font-size: 36px;
+    color: white;
+    margin-top: 82px;
+    margin-left: 20px;
+}
+
+.mrgvali{
+    width: 125px;
+    height: 130px;
+    position: absolute;
+    margin-left: 110px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.mrgvali img{
+width: 100%;
+}
+.mrgvali img:hover{
+    transform: scale(1.2);
+}
+.mrgvali1{
+    width: 125px;
+    height: 130px;
+    position: absolute;
+    margin-left: 472px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.mrgvali1 img{
+width: 100%;
+}
+.mrgvali1 img:hover{
+    transform: scale(1.2);
+}
+.mrgvali2{
+    width: 125px;
+    height: 130px;
+    position: absolute;
+    margin-left: 832px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.mrgvali2 img{
+    width: 100%;
+}
+.mrgvali2 img:hover{
+    transform: scale(1.2);
+}
+.aboutusflexsistvis{
+    width: 1050px;
+    height: 728px;
+    display: flex;
+    
+    margin-top: 128px;
+    margin-left: 184px;
+}
+
+.saxlidolarifoto{
+    width: 256px;
+    height: 256px;
+}
+.saxlidolarifoto img{
+    width: 100%;
+}
+.textcharcho{
+    width: 689px;
+    height: 800px;
+    margin-left: 105px;
+    background-color:rgba(141, 141, 218, 0.23);
+    border-radius: 25px;
+}
+.textcharcho img{
+width: 84px;
+height: 84px;
+overflow: hidden;
+margin-left: 546px;
+margin-top: 38px;
+}
+
+.textcharcho h2{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 44px;
+    margin-left: 290px;
+}
+.textcharcho p{
+margin-top: 8px;
+margin-left: 60px;  
+margin-right: 60px;  
+font-size: 18px;
+color: #FFFFFF;
+}
+.contactuscharcho{
+    width: 1246px;
+    height: 216px;
+   
+    margin-top: 66px;
+    margin-left: 96px;
+    display: flex;
+}
+.howtocontact{
+    width: 420px;
+    height: 216px;
+    
+}
+.information{
+    width: 414px;
+    height: 216px;
+    
+    margin-left: 74px;
+}
+.Contactusdidibutton{
+    width: 232px;
+    height: 69px;
+    
+    margin-top: 110px;
+    margin-left: 106px;
+    border-radius: 25px;
+    background-color: rgba(141, 141, 218, 0.23);
+}
+.Contactusdidibutton h2{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-left: 36px;
+}
+.howtocontact h2{
+font-size: 20px;
+color: #FFFFFF;
+margin-left: 36px;
+margin-top: 24px;
+}
+.howtocontactcharcho{
+    width: 368px;
+    height: 96px;
+    
+    margin-left: 22px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgba(141, 141, 218, 0.23);
+}
+.howtocontactcharcho p{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.information{
+    width: 414px;
+    height: 138px;
+    
+    border-radius: 20px;
+    margin-top: 42px;
+    background-color:rgba(141, 141, 218, 0.23);
+}
+.telefoni{
+    display: flex;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+.telefoni p{
+font-size: 20px;
+color: #FFFFFF;
+}
+.telefoni img{
+   width: 30px;
+   height: 30px;
+   margin-left: 8px;
+}
+.email{
+    display: flex;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+.email p{
+    font-size: 20px;
+color: #FFFFFF;
+}
+.email img{
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+.location{
+    display: flex;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+.location p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.location img{
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+.bordertop{
+    border-top: 1px solid; color: #FFFFFF;
+    margin-top: 316px;
+}
+.footerchamonatvali{
+    width: 1168px;
+    height: 138px;
+    
+    margin-left: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.ourservice{
+    width: 140px;
+    height: 138px;
+   
+}
+.ourservice h2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.ourservice p{
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.ourcompany{
+    width: 164px;
+    height: 118px;
+    
+}
+.ourcompany h2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.ourcompany p{
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.community{
+    width: 136px;
+    height: 116px;
+    
+}
+.community h2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.community p{
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.cybersurati{
+    width: 256px;
+    height: 256px;
+    margin-left: 592px;
+    margin-top: 134px;
+}
+.cybersurati img{
+    width: 100%;
+}
+/*-------------------------AGENT CODE---------------------*/
+.login-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgba(141, 141, 218, 0.23);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    background-color:#8D8DDA;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  input[type="submit"]:hover {
+    background-color:rgba(37,177,195,255)
+  }
+  /* ---------------------Premium page-----------------*/
+  .premiumcharcho{
+    width: 1102px;
+    height: 745px;
+    
+    margin-top: 68px;
+    margin-left: 140px;
+    display: flex;
+  }
+.premiumcharchotext{
+    width: 590px;
+    height: 620px;
+    
+    border-radius: 15px;
+    background-color: rgba(141, 141, 218, 0.23);
+}
+.premiumcharchotext h2{
+    width: 20px;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 228px;
+    transition: 0.8s;
+}
+.premiumcharchotext h2:hover{
+    color: #ffd904;
+}
+.premiumcharchotext p{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 24px;
+    margin-right: 10px;
+}
+.taxiservicesurati{
+    width: 350px;
+    height: 350px;
+   margin-left: 70px;
+}
+.taxiservicesurati img{
+    width: 100%;
+}
+.taxipremium{
+    width: 350px;
+    height: 58px;
+    background-color:rgba(141, 141, 218, 0.23); 
+   padding: 5px;
+    border-radius: 20px;
+    
+}
+.taxipremium p{
+font-size: 36px;
+color: #FFDE2E;
+margin-left: 66px;
+}
+.buynow{
+    width: 296px;
+    height: 48px;
+    background-color:rgba(141, 141, 218, 0.23);  
+    margin-top: 60px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.buynow p{
+   font-size: 24px;
+   color: #FFFFFF; 
+   margin-left: 50px;
+   padding: 8px;
+   transition: 1s;
+   position: relative;
+}
+.buynow p:hover{
+    color:#ffd904;
+}
+.buynow p::before{
+    content: "";
+    width: 0;
+    height: 1.5px;
+    background-color: #ffd904;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.buynow p:hover:before{
+    width:200px;
+}
+
+
+
+
+
+
+/*-----------------Costumer PAGE0-------------*/
+.uzarmazaricharcho{
+    width: 1200px;
+    height: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+   padding: 30px;
+    background-color: rgba(141, 141, 218, 0.15);
+    border-radius: 30px;
+    border: 1px solid; color:#8D8DDA;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    color: #2e2d31;
+    background: #8D8DDA;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .temporary_text {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 6px 12px;
+    color: #f8f8f8;
+  }
+  .temporary_text img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card_title {
+    font-weight: bold;
+  }
+  
+  .card_content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+      /* edit the width to fit card */
+    width: 100%;
+    padding: 20px;
+    background: #f2f2f2;
+    border-top-left-radius: 20px;
+      /* edit here to change the height of the content box */
+    transform: translateY(150px);
+    transition: 2s
+  }
+  
+  .card_content::before {
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px #f2f2f2;
+  }
+  
+  .card_title {
+    color: #131313;
+    line-height: 15px;
+  }
+  
+  .card_subtitle {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .card_description {
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  
+  .card:hover .card_content {
+    transform: translateY(0);
+  }
+  
+  .card:hover .card_description {
+    opacity: 1;
+    transition-delay: .25s;
+  }
+/* ----------------------------NEXT PAGE BUTTON-----------------------*/
+.nextpage{
+    width: 150px;
+    height: 50px;
+    
+    margin:50px auto;
+    padding: 14px;
+    background-color: #b01ca1;
+   border-radius: 10px;
+   
+}
+.nextpage a{
+    color: #f2f2f2;
+    margin-left: 22px;
+}
+
+.nextpage a:hover{
+    color: #ffd904;
+}
+.appartamentebi{
+    color: #f8f8f8;
+    font-size: 26px;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+/*---------------AGENTS PAGE-----------------*/ 
+
+.card1 {
+    width: 340px;
+    height: 150px;
+    background: whitesmoke;
+    transition: .2s linear;
+    box-shadow: 1px 1px 10px lightslategray;
+    cursor: default;
+    margin-top: 40px;
+  }
+  
+  .card-top-part {
+    width: 100%;
+    height: 70%;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .left-part {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .right-part {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .user-name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .name {
+    font-size: 24px;
+  }
+  
+  .role {
+    font-size: 10px;
+    color: lightcyan;
+    font-weight: bold;
+    text-transform: lowercase;
+    background-color: lightskyblue;
+    padding: 4px 10px;
+    border-radius: 15px;
+  }
+  
+  .position {
+    color: grey;
+  }
+  
+  .card-bottom-part {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border: 1px solid rgb(231, 227, 227);
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+  }
+  
+  .user-photo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid rgb(231, 227, 227);
+    box-shadow: 2px 2px 10px lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-photo img {
+    width: 100%;
+  }
+  
+  .bottom-part {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom-part:hover > .link {
+    transform: scale(1.1);
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 5.5px;
+    font-weight: bold;
+    transition: .2s linear;
+  }
+  
+  .icon {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom-part:first-child {
+    border-right: 1px solid rgb(231, 227, 227);
+  }
